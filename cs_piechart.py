@@ -31,7 +31,7 @@ colors = ['#003f5c', '#58508d', '#bc5090', '#ff6361', '#ffa600', '#ff4000']
 fig1, ax = plt.subplots()
 ax.pie(sizes, explode=explode,  colors=colors,
         shadow=True, startangle=90)
-# Equal aspect ratio ensures that pie is drawn as a circle
+
 ax.axis('equal')
 plt.title("WHY I DON'T RANK UP",fontsize=25,fontweight='bold',fontfamily='Courier New')
 plt.legend(labels, loc='center right', fontsize=15, frameon=False,
