@@ -5,17 +5,17 @@ import matplotlib.ticker as ticker
 import matplotlib.patches as mpatches
 
 circle = mpatches.Circle((0.5, 0.5), 0.5, facecolor="#003f5c",
-                    edgecolor="black", linewidth=1.25,label='A chutiya going AFK')
+                    edgecolor="black", linewidth=1.25,label='A')
 circle2 = mpatches.Circle((0.5, 0.5), 0.25, facecolor="#58508d",
-                    edgecolor="black", linewidth=1.25,label='Bhai galti se buy krlia')
+                    edgecolor="black", linewidth=1.25,label='B')
 circle3 = mpatches.Circle((0.5, 0.5), 0.25, facecolor="#bc5090",
-                    edgecolor="black", linewidth=1.25,label='Samne hacker hai')
+                    edgecolor="black", linewidth=1.25,label='C')
 circle4 = mpatches.Circle((0.5, 0.5), 0.25, facecolor="#ff6361",
-                    edgecolor="black", linewidth=1.25,label='Mic ke sath sex')
+                    edgecolor="black", linewidth=1.25,label='D')
 circle5 = mpatches.Circle((0.5, 0.5), 0.25, facecolor="#ffa600",
-                    edgecolor="black", linewidth=1.25,label='Constant Gaben abuse')
+                    edgecolor="black", linewidth=1.25,label='E')
 circle6 = mpatches.Circle((0.5, 0.5), 0.25, facecolor="#ff4000",
-                    edgecolor="black", linewidth=1.25,label='Because I suck')
+                    edgecolor="black", linewidth=1.25,label='F')
 
 
 
@@ -23,7 +23,7 @@ circle6 = mpatches.Circle((0.5, 0.5), 0.25, facecolor="#ff4000",
 plt.rcParams['font.family'] = "Courier New"
 sizes = [24, 24, 25, 12.5, 12.5, 2]
 
-labels = ['A chutiya going AFK', 'Bhai galti se buy krlia', 'Samne hacker hai', 'Mic ke sath sex', 'Constant Gaben abuse', 'Because I suck']
+labels = ['A', 'B', 'C', 'D', 'E', 'F']
 
 explode = (0.05, 0.05, 0.05, 0.05, 0.05, 0.05)
 #add colors
@@ -33,7 +33,7 @@ ax.pie(sizes, explode=explode,  colors=colors,
         shadow=True, startangle=90)
 
 ax.axis('equal')
-plt.title("WHY I DON'T RANK UP",fontsize=25,fontweight='bold',fontfamily='Courier New')
+plt.title("TITLE",fontsize=25,fontweight='bold',fontfamily='Courier New')
 plt.legend(labels, loc='center right', fontsize=15, frameon=False,
            handles=[circle, circle2, circle3, circle4, circle5, circle6])
 
